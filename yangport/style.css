@@ -1,0 +1,497 @@
+
+}
+header{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+header nav{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 12;
+}
+.navbar{
+  width: 90%;
+  display: flex;
+  margin: 20px auto 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+  header nav .logo{
+  height: 80px;
+  width: 150px;
+}
+.logo img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+nav .menu{
+  display: flex;
+}
+nav .menu li{
+  list-style: none;
+  margin: 0 9;
+
+}
+nav .menu a{
+  color: #696969;
+  font-size: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 120px;
+}
+nav .menu a:hover{
+  color: #000;
+}
+  .text-content{
+  position: absolute;
+  top: 33%;
+  left: 7%;
+  z-index: 12;
+}
+header .text-content .text{
+  font-size: 50px;
+  color: #2c3350;
+  column-count: 2;
+}
+header .text-content .name{
+color: #2c3350;
+padding-top: 30px;
+ font-size: 70px;
+ font-weight: 600;
+ margin: -20px 0 0 -3px;
+}
+header .text-content .job{
+ color: #483D8B;
+ font-size: 40px;
+ margin: 5px 0;
+ margin-top: -4px;
+ display: flex;
+}
+.text-content .typing-text{
+  margin-left: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid #5F9EA0;
+  animation: typing 3s steps(2) infinite;
+}
+@keyframes typing{
+  0%{
+    width: 0ch;
+  }
+  50%{
+    width: 15ch;
+  }
+  100%{
+    width: 0ch;
+  }
+}
+.text-content .job .one{
+  color: #4169E1;
+}
+.buttons{
+  margin: 20px 0 0 50px;
+}
+.text-content .buttons button{
+  outline: none;
+  margin: 0 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  color: black;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient( 135deg,  #48D1CC   10%,#5F9EA0 100%);
+}
+.buttons button:hover{
+  transform: scale(0.97);
+  
+}
+.content .girl img{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  bottom: 0;
+  right: 50px;
+  position: absolute;
+}
+header .media-icons{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+.media-icons a{
+ margin-top: 8px;
+ font-size: 20px;
+ font-weight: 500;
+ text-decoration: none;
+ opacity: 0.7;
+ color: #2c3350;
+ transition: all 0.3s ease;
+}
+.media-icons a:hover{
+ opacity: 1;
+}
+.yang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.yang img{
+	height: 500px;
+	height: 500px;
+}
+.about-text h5{
+	color: #000080;
+	letter-spacing: 1px;
+	font-size: 70px;
+}
+.about-text p{
+	color:##191970;
+	line-height: 28px;
+	font-size: 26px;
+	font-family:Times New Roman;
+	padding-bottom: 120px;
+}
+.icons a{
+ margin-top: 8px;
+ font-size: 20px;
+ font-weight: 500;
+ text-decoration: none;
+ opacity: 0.7;
+ color: #2c3350;
+ transition: all 0.3s ease;
+}
+.icons a:hover{
+ opacity: 1;
+}
+}
+header .icon{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+.icon a{
+ margin-top: 8px;
+ font-size: 20px;
+ font-weight: 500;
+ text-decoration: none;
+ opacity: 0.7;
+ color: #2c3350;
+ transition: all 0.3s ease;
+}
+.icon a:hover{
+ opacity: 1;
+}
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;   
+ }
+.education{
+	width: 100%;
+	padding-top: 3px;
+}
+.title h2{
+	color: #191970;
+	font-size:65px;
+	width: 1130px;
+	margin: 20px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+.card{
+	height: 330px;
+	width: 330px;
+	background: #ADD8E6;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color:#00008B;
+}
+h5{
+	color:#483D8B;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #4B0082;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+ .contact
+ {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px,100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ }
+ .contact .cont
+  max-width: 800px;
+  text-align: center;
+ }
+ .contact .cont h4
+ {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+ }
+ .contact .cont p
+ {
+  font-weight: 300px;
+  color: #fff;
+ }
+ .conts
+ {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+ }
+ .conts .contactinfo
+ {
+  width: 0px;
+  display: flex;
+  flex-direction: column;
+ }
+ .conts .contactinfo .box
+ {
+  position: relative;
+  padding-right: 10px 0;
+  display: flex;
+ }
+
+.conts .contactinfo .box .icon
+{
+  min-height: 50px;
+  height: 50px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 30px;
+}
+.conts .contactinfo .box .text
+{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300px;
+}
+ .contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact .row .content{
+    flex:1 1 30px;
+    padding: 4px;
+    padding-bottom: 0;
+  }
+  .contact .row .content .title{
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 3px;
+    padding-bottom: 2px;
+  }
+  .contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2px;
+    color: blue;
+    padding: 1px 0;
+    font-weight: normal;
+  }
+  .contact .row .content .info h3 i{
+    padding-right: 1px;
+    color: var(--blue);
+    font-size: 40px;
+    padding-bottom: 100px;
+    
+  }
+  .contact .heading{
+    color: #7B68EE;
+    font-size: 50px;
+    padding-left: 400px;
+    padding-bottom: -100px;
+    padding-top: -700px;
+}
+ {
+  box-sizing: border-box;
+}
+
+.column {
+  float: right;
+  width: 30%;
+  padding-left: : 10px;
+  text-align:center;
+   display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 3px;
+  margin-bottom: 1px;
+  float:left;
+  color: #663399;
+  font-size: 25px;
+  font-family:copperplate;
+}
+
+/* Clearfix (clear floats) */
+.dang::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+}
+nav .menu a:hover{
+  color: #000;
+}
+  .text-content{
+  position: absolute;
+  top: 33%;
+  left: 7%;
+  z-index: 12;
+  }
+  .contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contact .row .content{
+    flex:1 1 30em;
+    padding: 4rem;
+    padding-bottom: 0;
+  }
+  .contact .row .content .title{
+    text-transform: uppercase; 
+    color: #fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+  }
+  .contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: blue;
+    padding: 1rem 0;
+    font-weight: normal;
+  }
+  .contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--blue);
+    font-size: 40px;
+    
+  }
+  .contact .heading{
+    color: #7B68EE;
+    font-size: 50px;
+    padding-left: 400px;
+  }
+  .project{
+	width: 100%;
+	padding-top: 3px;
+}
+.title h2{
+	color: #191970;
+	font-size:65px;
+	width: 1130px;
+	margin: 20px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 300px;
+}
+.card{
+	height: 350px;
+	width: 900px;
+	background: #ADD8E6;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color:#00008B;
+}
+h5{
+	color:#483D8B;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: #191970;
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
